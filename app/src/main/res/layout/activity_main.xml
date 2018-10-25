@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:id="@+id/show_date_picker_text"
+        android:layout_marginTop="20dp"
+        android:textStyle="italic"
+        android:textColor="#00aee5"
+        android:text="Show date picker"/>
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:orientation="horizontal"
+    android:layout_height="wrap_content">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select date"
+        android:layout_gravity="center"
+        android:id="@+id/select_datePicker_button"
+
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="AGE CALCULATOR"
+        android:id="@+id/age_calc"/>
+
+</LinearLayout>
+
+    <DatePicker
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/date_picker"
+        android:layout_height="match_parent">
+
+    </DatePicker>
+
+
+
+
+</LinearLayout>
